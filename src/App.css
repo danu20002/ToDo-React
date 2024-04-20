@@ -2,6 +2,7 @@
   text-align: center;
 }
 
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +36,79 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+form{
+  width: 1170px;
+  margin: auto;
+  display: flex;
+  gap: 20px;
+}
+form input{
+  height: 40px;
+  flex-basis: 80%;
+  
+}
+form button{
+  flex-basis: 20%;
+}
+.outerDiv{
+  width: 1170px;
+  margin: auto;
+}
+
+.outerDiv ul{
+  margin: 0;
+  padding: 0px;
+  list-style: none;
+  margin-top: 20px;
+  
+}
+.outerDiv li{
+  color: white;
+  padding: 10px;
+  background-color: black;
+  text-align: left;
+  position: relative;
+  font-size: 25px;
+  margin-bottom: 20px;
+  cursor: pointer;
+
+}
+.outerDiv ul li span{
+   position: absolute;
+   right: 20px;
+   cursor: pointer;
+}
+.completetodo{
+  text-decoration: line-through;
+  color: red !important;
+  background-color: yellow !important;
+ cursor: pointer;
+
+}
+.tabsouter{
+  width: 1170px;
+  margin: auto;
+}
+.tabsouter ul{
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0px;
+  gap: 20px;
+
+}
+.tabsouter ul li button{
+  background: #e4e4e4;
+  color: #343a40;
+  padding: 0.5rem 20px;
+  margin-right: 18px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+.activebutton{
+  color: white;
+  background-color: red !important;
 }
